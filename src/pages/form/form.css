@@ -1,0 +1,27 @@
+.form {
+    display: flex; /* Aligns children (inputs) in a row */
+    flex-direction: column; /* Ensures inputs are aligned horizontally */
+    justify-content: space-around; /* Spreads the inputs evenly */
+    align-items: center; /* Centers the inputs vertically */
+    background-color: rgb(64, 62, 62); /* Optional background for visibility */
+    padding: 20px;
+    gap: 5px; /* Adds space between inputs */
+    border-radius: 7px;
+   
+}
+
+.formcontener {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5rem;
+}
+
+input, textarea {
+    width: 20rem;
+    margin: 0.5rem;
+    border-radius: 5px;
+    text-align: right;
+
+}
+

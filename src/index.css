@@ -1,0 +1,178 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #121212;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+*{
+  margin: 0;
+  padding:0;
+  text-align: center;
+}
+
+button{
+  padding: 7px 12px;
+  margin: 20px;
+  font-size: 1rem;
+  border-radius: 5px;
+  background-color: rgb(255, 13, 13);
+  border: none;
+  color: white;
+  font-weight: 600;
+
+}
+
+a {
+  color: #bb86fc; /* Light purple for links */
+  text-decoration: none; /* Remove underline */
+}
+
+a:hover {
+  text-decoration: underline; /* Underline on hover */
+}
+
+/* Header tags */
+h1, h2, h3, h4, h5, h6 {
+  color: #ffffff; /* White color for headings */
+  margin-bottom: 0.5em;
+}
+
+/* Paragraph */
+p {
+  color: #e0e0e0; /* Light grey text for paragraphs */
+  line-height: 1.6; /* Spacing for readability */
+}
+
+/* Unordered and ordered lists */
+ul, ol {
+  list-style: none; /* Remove default list style */
+  padding-left: 20px; /* Add custom padding */
+}
+
+li {
+  color: #e0e0e0; /* List items with light color */
+  margin-bottom: 0.5em;
+}
+
+/* Table styles */
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  border: 1px solid #333; /* Dark borders */
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #333;
+  color: #fff;
+}
+
+td {
+  background-color: #222;
+  color: #e0e0e0;
+}
+
+/* Forms */
+input, textarea, select, button {
+  background-color: #333; /* Dark input background */
+  color: #e0e0e0; /* Light text color */
+  border: 1px solid #555; /* Dark border */
+  padding: 8px;
+  font-size: 1em;
+}
+
+input:focus, textarea:focus, select:focus, button:focus {
+  outline: none;
+  border-color: #bb86fc; /* Light purple focus border */
+}
+
+/* Buttons */
+button {
+  background-color: #6200ea; /* Purple button */
+  color: white;
+  border: none;
+  padding: 10px 57px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #3700b3; /* Darker purple on hover */
+}
+
+/* Code styling */
+code {
+  background-color: #333;
+  color: #f8f8f2;
+  padding: 4px 8px;
+  border-radius: 4px;
+}
+
+/* Blockquotes */
+blockquote {
+  border-left: 4px solid #bb86fc; /* Light purple border */
+  padding-left: 16px;
+  font-style: italic;
+  color: #b0b0b0; /* Light grey text */
+}
+
+/* Images */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Links in buttons or other elements */
+button a, a.button {
+  color: white; /* White text for links inside buttons */
+}
+
+a.button:hover {
+  text-decoration: none;
+  color: #bb86fc;
+}
+
+/* Scrollbars */
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #333;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #121212;
+}
+
+/* Custom scrollbar for dark theme */
+::-webkit-scrollbar-thumb:hover {
+  background-color: #6200ea;
+}
+
+/* Additional styling for specific elements */
+blockquote, .quote, .highlight {
+  background-color: #222;
+  border-left: 4px solid #bb86fc;
+  color: #e0e0e0;
+}
+
+
+.denger{
+  color: red;
+  border: red;
+}

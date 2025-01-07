@@ -1,0 +1,72 @@
+.card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 20px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    width: 20rem;
+    height: auto;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  .name {
+    font-size: 0.8rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .title {
+    font-size: 0.8rem;
+
+    color: #0057c9;
+    margin-bottom: 10px;
+  }
+  
+  .description {
+    font-size: 1em;
+    color: #777;
+    line-height: 1.6;
+  }
+  ul{
+    display: flex;
+
+  
+  }
+  
+  @media (max-width: 768px) {
+    .card {
+      padding: 15px;
+      margin: 10px;
+    }
+  
+    .name {
+      font-size: 1.3em;
+    }
+  
+    .title {
+      font-size: 1.1em;
+    }
+  
+    .description {
+      font-size: 0.95em;
+    }
+  }
+  
+  .likebtn {
+    
+    cursor: pointer;
+    font-size: 1.3rem;
+   
+}
+
+
+  p{
+    color:rebeccapurple;
+    
+  }
