@@ -1,7 +1,7 @@
 import { useState, createContext } from 'react'
 import './App.css'
-import Header from './components/Header/Header';
-import Footer from './components/Footer/footer'
+import Header from './components/Header/Header.jsx';
+import Footer from './components/Footer/footerjsx'
 import Body from './body';
 import {  BrowserRouter as Router } from "react-router-dom"; 
 export const Appcontex =createContext();
